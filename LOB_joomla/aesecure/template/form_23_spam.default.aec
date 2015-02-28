@@ -1,0 +1,51 @@
+<p class="text-info"><strong>%PREFACE%</strong></p>
+<div>
+
+      
+   <div id="tab%ID%switch" class="aeButtons make-switch switch-large" data-on-label="%ENABLE%" data-off-label="%DISABLE%" data-toggle="popover" data-content="%HINT%">
+      <input type="checkbox" %CHECKED% />
+   </div>
+   <form id="form%ID%" role="form">
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <input type="hidden" name="a" value="1" size="1"/>
+      <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+      <textarea style="display:none;" disabled="disabled" id="backup%ID%" class="form-control" rows="5">%BACKUPVALUES%</textarea>
+      <div data-aesecure="pro" class="form-group" id="pro_options%ID%">&nbsp;</div>
+   </form>
+
+   <br/><span class="text-success"><em><strong>%RECOMMANDED_STATE%:</strong>&nbsp;%RECOMMANDED_STATE_VALUE%</em></span>
+</div>
+
+<div id="div%ID%" class="ajaxResult"/>
+
+<script type="text/javascript">
+
+function postProcessing%ID%() { return true; }
+
+   // Initialize Pro functionnalities (if present)
+   if (typeof initaeSecurePro !== 'undefined' && $.isFunction(initaeSecurePro)) initaeSecurePro(%ID%);
+
+   $('#tab%ID%switch').bootstrapSwitch();
+   $('#tab%ID%switch').bootstrapSwitch('setOnClass', 'success aeButton');
+   $('#tab%ID%switch').bootstrapSwitch('setOffClass', 'danger aeButton');
+
+   $('#tab%ID%switch').on('switch-change', function (e, data) {
+
+      if (data.value==true) {
+
+         $('#form%ID% input[name=a]').val(1);
+         var formData=$('#form%ID%').serialize();
+         SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_ENABLED%','','',true, 'POST','tab%ID%switch','','','%TAG%');
+
+   	} else {
+
+         $('#form%ID% input[name=a]').val(0);
+         var formData=$('#form%ID%').serialize();
+         SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_DISABLED%','','',true, 'POST','tab%ID%switch','','','%TAG%');
+
+      }
+   });
+
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+
+</script>

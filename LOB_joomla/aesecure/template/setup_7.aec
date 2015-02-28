@@ -1,0 +1,81 @@
+<div class="divider"></div>
+<div class="heading">
+   <h2>7. %AESECURESEO%</h2>&nbsp;<h5 data-toggle="popover" title="CMS" data-content="%AESECUREPOPUPTITLECHAPTER7%"><span class="glyphicon glyphicon-comment aeComment"/></h5>
+</div>
+<div data-aesecureid="71" id="seo_rewrite" name="seo_rewrite" class="wrapper %71_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row" >
+		<h3>%71_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab71Intro" href="#tab71Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab71Help" href="#tab71Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab71Test" title="%AESECURETITLETEST_TIP%" href="#tab71Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab71Result" href="#tab71Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab71Intro"><p>%71_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab71Help"></div>
+				<div class="tab-pane fade divTest" id="tab71Test"></div>
+				<div class="tab-pane fade divProtect" id="tab71Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="72" id="seo_www" name="seo_www" class="wrapper %72_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%72_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab72Intro" href="#tab72Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab72Help" href="#tab72Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab72Test" title="%AESECURETITLETEST_TIP%" href="#tab72Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab72Result" href="#tab72Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab72Intro"><p>%72_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab72Help"></div>
+				<div class="tab-pane fade divTest" id="tab72Test"></div>
+				<div class="tab-pane fade divProtect" id="tab72Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="73" id="edit_robots" name="edit_robots" class="wrapper %73_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%73_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab73Intro" href="#tab73Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab73Help" href="#tab73Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab73Result" href="#tab73Result" data-toggle="tab">%AESECURETITLEEDIT%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab73Intro"><p>%73_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab73Help"></div>
+				<div class="tab-pane fade divProtect" id="tab73Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="74" id="redirections" name="redirections" class="wrapper %74_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%74_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab74Intro" href="#tab74Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab74Help" href="#tab74Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab74Result" href="#tab74Result" data-toggle="tab">%AESECURETITLEEDIT%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab74Intro"><p>%74_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab74Help"></div>
+				<div class="tab-pane fade divProtect" id="tab74Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<hr/>

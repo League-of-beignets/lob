@@ -1,0 +1,7 @@
+
+<div id="div%ID%" class="ajaxResult"/>
+
+<script type="text/javascript">
+   SetupTask(%ID%, 'div%ID%','tmpl=0');
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+</script>

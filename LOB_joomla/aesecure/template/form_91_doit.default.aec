@@ -1,0 +1,20 @@
+<div>
+   <p class="text-info">%EXPLAIN%</p>
+   <form id="form%ID%" role="form">
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <input type="hidden" name="a" value="1" size="1"/>
+      <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+   </form>
+   <button id="tab%ID%DoIt" class="aeButtons aeButton btn btn-success" data-toggle="popover" data-content="%HINT%">%PROTECT%</button>
+</div>
+<div id="div%ID%" class="ajaxResult"/>
+<script type="text/javascript">
+   $("#tab%ID%DoIt").click(
+      function(e){ 
+
+         var formData=$('#form%ID%').serialize();
+         SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_ENABLED%','','',true,'POST','tab%ID%DoIt','','','%TAG%');
+      }
+   );
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+</script>

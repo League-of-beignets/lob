@@ -1,0 +1,28 @@
+<div>   
+   <form id="form%ID%" role="form">
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <input type="hidden" name="a" value="1" size="1"/>
+      <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+      <button id="tab%ID%DoIt" class="aeButtons aeButton btn btn-success" data-toggle="popover" data-content="%HINT%">%PROTECT%</button>
+   </form>
+</div>
+<div id="div%ID%" class="ajaxResult"/>
+
+<script type="text/javascript">
+
+function postProcessing%ID%() { return true; }
+
+   // Initialize Pro functionnalities (if present)
+   if (typeof initaeSecurePro !== 'undefined' && $.isFunction(initaeSecurePro)) initaeSecurePro(%ID%);
+
+   $("#tab%ID%DoIt").click(function(e) {
+      // Prevent the form to be submitted (old fashion); it's an ajax call
+      e.preventDefault();
+      $('#form%ID% input[name=a]').val(1);
+      var formData=$('#form%ID%').serialize();
+      SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_ENABLED%','','',true,'POST','tab%ID%DoIt','','','%TAG%');
+   });
+
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+
+</script>

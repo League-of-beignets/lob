@@ -1,0 +1,39 @@
+<form id="form%ID%" role="form">
+   <div>%PREFACE%<br/><br/>
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <input type="hidden" name="a" value="1" size="1"/>
+      <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+      <textarea style="display:none;" disabled="disabled" id="backup%ID%" class="form-control" rows="5">%BACKUPVALUES%</textarea>
+      <textarea id="edt%ID%" name="edt%ID%" class="form-control" rows="8" placeholder=".htaccess;configuration.php;wp-config.php">%VALUES%</textarea><br/>
+      <button id="tab%ID%DoIt" class="btn btn-success aeButton" data-toggle="popover" data-content="%HINT%">%SAVE%</button>&nbsp;
+      <button id="tab%ID%Restore" class="btn btn-success aeButton" data-toggle="popover" data-content="%RESTOREFROMCONFIGHINT%">%RESTOREFROMCONFIG%</button>&nbsp;
+      <span data-aesecure="pro">
+         <button disabled="disabled" id="tab%ID%LoadFromaeSecure" class="btn btn-success aeButton" data-toggle="popover" data-content="%LOADFROMAESECUREHINT%">%LOADFROMAESECURE% %AESECUREPRO%</button>
+      </span>
+   </div>
+</form>
+
+<div id="div%ID%" class="ajaxResult"/>
+
+<script type="text/javascript">
+
+function postProcessing%ID%() { return true; }
+
+   // Initialize Pro functionnalities (if present)
+   if (typeof initaeSecurePro !== 'undefined' && $.isFunction(initaeSecurePro)) initaeSecurePro(%ID%);
+
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+
+   $("#tab%ID%DoIt").click(function(e) {
+      e.preventDefault();
+      $('#form%ID% input[name=a]').val(1);
+      var formData=$('#form%ID%').serialize();
+      SetupTask(%ID%, 'div%ID%', formData, '%SAVEDMSG%', '', '', '', 'POST','tab%ID%DoIt','','','%TAG%');
+   });
+
+   $("#tab%ID%Restore").click(function(e) {
+      e.preventDefault();
+      $('#edt%ID%').val($('#backup%ID%').val());
+   });
+
+</script>

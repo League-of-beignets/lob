@@ -1,0 +1,54 @@
+<html>
+
+   <head>
+
+      <meta charset="utf-8"/></head>
+      <meta name="robots" content="noindex, nofollow">
+      <meta name="generator" content="aeSecure (c) Christophe Avonture">
+
+      <link href="%HTTP_HOST%/aesecure/third/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+      <title>%AESECUREMAILTITLE%</title>
+
+      <style>
+         body{font:14px/1.5 Helvetica, Arial, sans-serif;}
+			#content{max-width:920px;}
+         #right{float:right;max-width:650px;position:relative;}
+			#map{width:800px;height:500px;border-radius:10px;}
+			#robot{width:150px;margin-bottom:50px;}
+			#left{max-width:180px;float:left;position:relative;}
+			#Variables{font-size:0.5em;font-weight:bold;}
+			a{margin-top:15px;display:block;font-size:1em;}
+         pre{background:#ccf;padding:20px;border-radius:10px;color:#000;font-size:0.8em;font-family:Consolas,monospace;box-sizing:border-box;-moz-box-sizing:border-box;webkit-box-sizing:border-box;display:block;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;width:100%;overflow-x:auto;}
+      </style>
+
+   </head>
+
+   <body>
+		<div id="content">
+		   <div id="left">
+            <img id="robot" src="%HTTP_HOST%/aesecure/assets/aesecure.png" alt=""/>
+				<a href="%URLGETLOG%" target="_blank">%SHOWLOG%</a>
+				<a href="%URLBANIP%" target="_blank">%BANIP%</a>
+				<a href="#ShowVar">%SHOWVAE%</a>
+			</div>
+
+         <div id="right">
+
+		   	<h1>%ILLEGITIMATE%</h1>
+			   <h2>%ACCESSEDURL%&nbsp;:<br/>%HTTP_HOST%%REQUEST_URI%</h2>
+			   <h5>%TYPEOFATTACK%&nbsp;:&nbsp;%AESECURE_ATTACK%<br/>%IPADDRESS%&nbsp;:&nbsp;%REMOTE_ADDR%</h5>
+
+			   <div id="map"><img src="http://maps.googleapis.com/maps/api/staticmap?zoom=9&size=800x500&maptype=roadmap&center=%LATITUDE%,%LONGITUDE%&sensor=false&markers=color:blue%7Clabel:S%7C%LATITUDE%,%LONGITUDE%"/></div>
+
+				<a name="ShowVar"><span id="Variables">%TECHINFOS%</span></a>
+		   	<pre><ul class="list-unstyled"><li><span class="glyphicon glyphicon-chevron-down">&nbsp;</span>Server software : %SERVER_SOFTWARE%</li><li><span class="glyphicon glyphicon-chevron-down">&nbsp;</span>User agent : %HTTP_USER_AGENT%</li></ul></pre>
+
+			   <pre>List of SERVER variables<hr/><small>%VAR_SERVER%</small></pre>
+			   <pre>List of POST variables<hr/><small>%VAR_POST%</small></pre>
+			   <pre>List of GET variables<hr/><small>%VAR_GET%</small></pre>
+         </div> <!-- right -->
+      </div><!-- content -->
+   </body>
+
+</html>

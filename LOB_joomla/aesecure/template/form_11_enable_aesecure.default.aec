@@ -1,0 +1,69 @@
+<p class="text-info"><strong>%PREFACE%</strong></p>
+<div>
+   <div class="aeButtons">
+      <button id="btnSeeHTAccess" type="button" class="btn btn-info switch-large" style="" title="%AESECURESEEHTACCESS_HINT%">%AESECURESEECURRENTHTACCESS%</button><br/><br/>
+      <div id="tab%ID%switch" class="make-switch switch-large" data-on-label="%ENABLE%" data-off-label="%DISABLE%" data-toggle="popover" data-content="%HINT%">
+         <input type="checkbox" %CHECKED% />
+      </div>
+   </div>
+   <br/><span class="text-success"><em><strong>%RECOMMANDED_STATE%:</strong>&nbsp;%RECOMMANDED_STATE_VALUE%</em></span>
+
+   <div id="div%ID%" class="ajaxResult"><!-- AESECURE_STATUS --></div>
+
+   <form id="form%ID%" role="form">
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <input type="hidden" name="a" value="1" size="1"/>
+      <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+      <textarea style="display:none;" disabled="disabled" id="backup%ID%" class="form-control" rows="5">%BACKUPVALUES%</textarea>
+      
+      <div data-aesecure="pro" class="form-group" id="pro_options%ID%">&nbsp;</div>
+   </form>
+</div>
+<script type="text/javascript">
+
+function postProcessing%ID%() { return true; }
+
+// Once the option 1.1 is enabled, enable back other options that was already active on the site
+function processTask11() {
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+   return true;
+} // function processTask11()
+       
+   // Initialize Pro functionnalities (if present)
+   if (typeof initaeSecurePro !== 'undefined' && $.isFunction(initaeSecurePro)) initaeSecurePro(%ID%);
+
+   $('#tab%ID%switch').bootstrapSwitch();
+   $('#tab%ID%switch').bootstrapSwitch('setOnClass', 'success aeButton');
+   $('#tab%ID%switch').bootstrapSwitch('setOffClass', 'danger aeButton');
+
+   $('#tab%ID%switch').on('switch-change', function (e, data) {
+      if (data.value==true) {
+
+         $('#form%ID% input[name=a]').val(1);
+         var formData=$('#form%ID%').serialize();
+        
+         // Enable the option 1.1 and restore any others functionnalities by calling processTask11()
+         SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_ENABLED%','','processTask11()',true, 'POST','tab%ID%DoIt','','','%TAG%');
+
+   	} else { // if (data.value==true)
+
+         $('#form%ID% input[name=a]').val(0);
+         var formData=$('#form%ID%').serialize();
+
+         // Disable 1.1
+         SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_DISABLED%','','',true,'POST','tab%ID%DoIt','','','%TAG%');
+
+      } // if (data.value==true)
+
+   });
+
+$("#btnSeeHTAccess").click(function (e){ 
+      $("#seehtaccess").trigger("click");
+   });
+
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+
+</script>
+<style>
+#aeSecureActiveFunctionnalities .popover{width:auto;min-width:200px;max-width:800px;height:auto;}
+</style>

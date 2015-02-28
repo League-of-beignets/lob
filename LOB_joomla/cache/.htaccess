@@ -1,0 +1,18 @@
+# aeSecure
+RewriteEngine on
+RewriteOptions Inherit
+
+# Uncomment this line if you wish to make impossible to access the /cache folder by url.
+# Test your site after since it's possible that, f.i., your CMS or template make use of direct access to the /cache folder
+# To do this : open the network tab of your navigator and surf on your site.  If you see a few ressources having /cache/ in the url with a 403 error, comment back
+# the line below.
+#RewriteRule . /Canaillou/aesecure/accessdenied.php?s=403&fld=cache
+
+##Deny access to all CGI, Perl, PHP and Python
+<FilesMatch "\.(asp?x|cgi|php|pl|py)$">
+Deny from all
+</FilesMatch>
+
+# secure directory by disabling script execution
+AddHandler cgi-script .php .pl .py .jsp .asp .sh .cgi
+Options -ExecCGI

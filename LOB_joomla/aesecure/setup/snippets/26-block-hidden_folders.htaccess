@@ -1,0 +1,7 @@
+#aeSecure 2.6
+# Block access to hidden files and directories.
+# This includes directories used by version control systems such as Git and SVN.
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_URI} "(^|/)\."
+ RewriteRule .* /aefc/aesecure/accessdenied.php?s=26 [L]
+</IfModule>

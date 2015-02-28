@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+      <meta name="robots" content="noindex, nofollow" />
+      <meta name="author" content="aeSecure (c) Christophe Avonture" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8;" />
+      <title>%AESECUREPAGETITLE%</title>
+      <link href="assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+      <link href="third/textillate/assets/animate.css" rel="stylesheet" media="screen">
+      <link href="third/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      %AESECURERTL_SUPPORT%
+      <link href="third/bootstrap/css/bootstrap-switch.min.css" rel="stylesheet">
+      <link href="third/alertify/themes/alertify.core.css" rel="stylesheet" media="screen">
+      <link href="third/alertify/themes/alertify.bootstrap.css" rel="stylesheet" media="screen">
+      <link href="third/tablesorter/css/theme.ice.css" rel="stylesheet" media="screen"> 
+      <link href="assets/aesecure.css" rel="stylesheet" media="screen">
+      <link href="assets/icomoon/style.css" rel="stylesheet" media="screen">
+      <script src="third/bootstrap/js/jquery.min.js"></script>
+   </head>
+
+   <body data-spy="scroll" data-target="#sidebar">
+
+      <div id="wrap" class="container">
+
+         <div id="aeSecureUseKey">
+            <p class="lead alert alert-success">%AESECUREINSTALLDONE%</p>
+            <div style="float:right;"><img src="assets/aesecure.png" alt="" style="width:250px;padding:25px;"/></div>
+            <div class="alert alert-warning">
+               <div id="aeSecureChoiceVersion">
+                  <h3>%AESECURE_CHOICEVERSION%</h3>
+                  <div>%AESECURE_CHOICEVERSION_SUBTITLE%
+                     <form id="frmVersion">
+                        <div class="radio form-group">
+                           <label id="lblFree" class="radio-inline"><input %FREESELECTED% type="radio" name="optVersion" value="Free"/>&nbsp;Free</label>
+                           <label id="lblPremium" class="radio-inline %PREMIUMCLASS%"><input %PREMIUMSELECTED% %PREMIUMDISABLED% type="radio" name="optVersion" value="Premium"/>&nbsp;Premium</label>
+                           <label id="lblProNoDashboard" class="radio-inline %PROCLASS%"><input %PROSELECTED% %PRODISABLED% type="radio" name="optVersion" value="Pro">&nbsp;Pro</label>
+                           <label id="lblProDashboard" class="radio-inline %PRODASHBOARDCLASS%"><input %PRODASHBOARDDISABLED% type="radio" name="optVersion" value="ProDashboard">&nbsp;%PRODASHBOARD%</label>
+                           <span class="btn-group-xs">
+                              <button id="aeSecureConfirmChoiceVersion" type="button" class="btn btn-success"><span class="glyphicon glyphicon-check">&nbsp;</span>%AESECURESETUP_CONFIRM%</button>
+                           </span>
+                        </div>
+                     </form>
+                  </div>		
+              </div>		
+               <h3>%AESECURE_IMPORTANTINFO%</h3>
+               <ul id="setupimportantinfos" class="list-unstyled">
+                  <li id="lblDisclaimer"><span class="glyphicon glyphicon-check">&nbsp;</span><span class="text-danger">%AESECURESETUP_DISCLAIMER%</span><br/><div class="checkbox"><label class="text-danger checkbox"><input type="checkbox" id="chkDisclaimer">%AESECURESETUP_DISCLAIMER_CHK%</label></div></li>
+                  <li id="lblLimitation"><span class="glyphicon glyphicon-check">&nbsp;</span><span class="text-danger">%AESECURESETUP_DISCLAIMER_LIMITATION%</span><br/><div class="checkbox"><label class="text-danger checkbox"><input type="checkbox" id="chkLimitation">%AESECURESETUP_DISCLAIMER_LIMITATION_CHK%</label></div></li>
+               </ul>
+               <br/>
+               <div class="text-success">%AESECURESETUP_KEY%<br/><br/><span class="text-success" id="urlsetupkey">%AESECURESETUP_KEYURL%</span><br/><br/>%AESECURESETUP_KEYCHANGE%</div>
+            </div>
+            <div class="alert alert-info">%AESECUREPOSTINSTALL%</div>
+            %AESECUREMINIFYDISABLED%
+            <button type="button" disabled="disabled" class="btn btn-success" id="aeSecureUseKeyContinue">%AESECURESETUP_PLSWAIT%</button><span id="PostInstallMsg" style="display:none;"></span>
+         </div>
+         <div id="aeSecureUseKeyEnd" class="alert alert-success"><p>%AESECUREINSTALLDONE%</p></div>
+         <div id="aeSecureMainBody" class="col-lg-12 col-md-12">%AESECURE_CONTENT%</div>
+         <div id="aeSecureShowInfo" style="display:none;"></div>
+      </div>
+      <div id="footer">
+         <div class="container"><p class="text-muted">%AESECUREGETIT% Copyright &copy; 2013-%YEAR%&nbsp;&nbsp;%FANFACEBOOK%%TWITTER%%GOOGLEPLUS%</p></div>
+      </div>
+      <ul class="nav pull-right scroll-top"><li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li></ul>
+      <textarea id="aeSecureTempHTML" style="display:none;"></textarea>
+      %AESECURE_TMPL_QUICKINFO%
+      <script type="text/javascript" src="third/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="third/bootstrap/js/bootstrap-switch.min.js"></script>
+      <script type="text/javascript" src="third/bootstrap/js/jquery.validate.min.js"></script>
+      <script type="text/javascript" src="third/bootstrap/js/additional-methods.min.js"></script>
+      <script type="text/javascript" src="third/textillate/jquery.textillate.min.js"></script>
+      <script type="text/javascript" src="third/textillate/assets/jquery.lettering.min.js"></script>
+      <script type="text/javascript" src="third/alertify/lib/alertify.min.js" defer></script>
+      <script type="text/javascript" src="third/tablesorter/js/jquery.tablesorter.min.js"></script>
+      <script type="text/javascript" src="third/tablesorter/js/jquery.tablesorter.widgets.js"></script>     
+      <script type="text/javascript">var aeSecure = {};aeSecure.debug=%AESECUREDEBUG%;aeSecure.key='%AESECUREKEY%';aeSecure.token='%AESECURETOKEN%';aeSecure.token_value='%TOKEN%';aeSecure.license='%AESECURELICENSE%';aeSecure.language='%AESECURELANGUAGE%';aeSecure.username='%AESECUREUSERNAME%';aeSecure.website='%AESECUREWEBSITE%';aeSecure.version='%AESECUREVERSION%';aeSecure.showUseKey='%AESECURESHOWUSEKEY%';aeSecure.demo='%AESECUREDEMO%';aeSecure.onlyPremium='%ONLYPREMIUM%';aeSecure.onlyPRO='%ONLYPRO%';aeSecure.imgPro='%ICONAESECUREPRO%';aeSecure.msgHiddenDemoMode='%HIDDENDEMOMODE%';aeSecure.msgSiteBroken='%SITEBROKEN%';aeSecure.msgEditHtAccess='%EDITANDSEARCHFOR%';</script>
+      %AESECUREPREMIUM_JS%
+      %AESECUREPRO_JS%
+      <script type="text/javascript" src="assets/aesecure.js?v=%AESECUREVERSION%"></script>
+      %AESECUREEXTRA_JS%
+	</body>
+</html>

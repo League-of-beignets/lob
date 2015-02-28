@@ -1,0 +1,48 @@
+<form id="form%ID%" class="form-inline">
+   <input type="hidden" name="w" value="%ID%" size="4"/>
+   <input type="hidden" name="a" value="1" size="1"/>
+   <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+   <input type="hidden" name="task" value="0" size="1"/>
+   <div>%PREFACE%</div><br/><br/>
+   <div style="min-height:70px;">
+      <span style="float:left;width:30%;border-right:1px solid;margin-right:30px;">
+         <label>%PERMISSIONS%</label>&nbsp;
+         <input style="max-width:75px;" name="chmod" type="number" size="3" class="input-small" value="777" min="0" max="777" required>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" /><br/><br/>
+         <button id="tab%ID%Search" class="btn btn-success aeButton" data-toggle="popover" data-content="%HINT%">%SEARCH%</button>
+      </span>
+      <span style="float:left;width:65%;display:inline-block">
+         <label>%FOLDER%</label>&nbsp;<input style="max-width:75px;" name="chmodfolder" type="number" size="3" class="input-small" value="755" min="0" max="777" required>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />&nbsp;
+         <label>%FILE%</label>&nbsp;<input style="max-width:75px;" name="chmodfile" type="number" size="3" class="input-small" value="644" min="0" max="777" required>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" /><br/><br/>
+         <button id="tab%ID%Protect" class="btn btn-success aeButton" data-toggle="popover" data-content="%HINT%">%PROTECT%</button>
+      </span>
+   </div>
+</form>
+
+<div id="div%ID%" class="ajaxResult"/>
+
+<script type="text/javascript">
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'top','html':true});
+
+   // Detect which button was clicked and initialize a "task" hidden variable that will be sent to the server
+   // when the form will be submitted
+   $('#form%ID%').click(function(event) {
+      if($(event.target).is('[id=tab%ID%Search]')) {
+         $('#form%ID% input[name=task]').val('0');
+      } else if($(event.target).is('[id=tab%ID%Protect]')) {
+         $('#form%ID% input[name=task]').val('1');
+      }
+   });
+
+   // Assign task to the different Protect/Optimize buttons
+   $('#form%ID%').validate({
+      rules: {
+         chmod: {required:true,min:0,max:777}
+      },
+      submitHandler: function (form) {
+
+         var formData=$('#form%ID%').serialize();
+         SetupTask(%ID%, 'div%ID%',formData,'%FEATURE_ENABLED%','','',true,'POST','tab%ID%DoIt','','','%TAG%');
+      }
+   });
+
+</script>

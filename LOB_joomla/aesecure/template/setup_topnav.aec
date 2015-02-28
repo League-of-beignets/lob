@@ -1,0 +1,57 @@
+<div class="container">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="%AESECUREWEBSITE%" target="_blank" title="%AESECURETITLE%"><i class="glyphicon glyphicon-home"></i></a>
+   </div>
+   <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="%AESECURESECURITY%"><span class="glyphicon glyphicon-lock">&nbsp;</span><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+               <li><a href="#aeSecureBase">1. %AESECUREACTIONS_BASE%</a></li>
+               <li><a href="#aeSecureOther">2. %AESECUREACTIONS_OTHER%</a></li>
+               <li><a href="#aeSecurePermissions">3. %AESECUREFILESANDFOLDERS%</a></li>
+               <li><a href="#aeSecureCMS">4. CMS</a></li>
+               <li><a href="#aeSecureDatabase">5. %AESECUREDATABASE%</a></li>
+               <li><a href="#aeSecureSEO">7. %AESECURESEO%</a></li>
+               <li><a href="#aeSecureOptimize">8. %AESECUREACTIONS_OPTIMIZE%</a></li>
+               <li><a href="#aeSecureMisc">9. %AESECUREACTIONS_MISC%</a></li>
+            </ul>
+         </li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="%AESECURETOOLS%"><span class="glyphicon glyphicon-wrench">&nbsp;</span><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+               <li data-aesecureid="1005"><a href="#" id="pentest" title="%AESECUREPENTEST_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>%AESECUREPENTEST_TEXT%</a></li>
+               <li data-aesecureid="998"><a href="#" id="phpinfo" title="%AESECUREPHPINFO_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>%AESECUREPHPINFO_TEXT%</a></li>
+               <li data-aesecureid="994"><a href="#" id="lastmod" title="%AESECURELASTMOD_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>%AESECURELASTMOD_TEXT%%AESECUREPREMIUM%</a></li>
+               <li data-aesecureid="995"><a href="#" id="psi" title="%AESECUREPSI_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>PhpSecInfo%AESECUREPREMIUM%</a></li>
+               <li data-aesecureid="996"><a href="#" id="jamss" title="%AESECUREJAMSS_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>JAMSS - Joomla! Anti-Malware Scan Script%AESECUREPREMIUM%</a></li>
+               <li data-aesecureid="997"><a href="#" id="coderemover" title="%AESECURECODEREMOVER_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>Trojan code remover%AESECUREPREMIUM%</a></li>
+               <li data-aesecureid="1006"><a href="#" id="mimetype" title="%AESECUREMIMETYPE_HINT%"><span class="glyphicon glyphicon-wrench">&nbsp;</span>%AESECUREMIMETYPE_TEXT%%AESECUREPRO%</a></li>
+               <li data-aesecureid="1007"class="divider"></li>
+               <li data-aesecureid="1007"><a href="#" id="zipwebsite" title="%AESECUREZIPWEB_HINT%"><span class="glyphicon glyphicon-download-alt">&nbsp;</span>%AESECUREZIPWEB%%AESECUREPREMIUM%</a><input type="hidden" name="tools_download" value="premium/helpers/download.php?%AESECUREKEY%&amp;file=/"/></li>
+               <li class="divider"></li>
+               <li data-aesecureid="991"><a href="#" id="seehtaccess" title="%AESECURESEEHTACCESS_HINT%"><span class="glyphicon glyphicon-eye-open">&nbsp;</span>%AESECURESEEHTACCESS%</a></li>
+               <li data-aesecureid="999"><a href="#" id="seephpini" title="%AESECURESEEPHPINI_HINT%"><span class="glyphicon glyphicon-eye-open">&nbsp;</span>%AESECURESEEPHPINI%</a></li>
+               <li data-aesecureid="1000"><a href="#" id="seeactivity" title="%AESECURESEEACTIVITY_HINT%"><span class="glyphicon glyphicon-eye-open">&nbsp;</span>%AESECURESEEACTIVITY%</a></li>
+               <li data-aesecureid="1004"><a href="#" id="seeapacheerrorlog" title="%AESECUREGETAPACHEERRORLOG_HINT%"><span class="glyphicon glyphicon-eye-open">&nbsp;</span>%AESECUREGETAPACHEERRORLOG%%AESECUREPREMIUM%</a></li>
+               <li data-aesecureid="1001"><a href="#" id="seelog" title="%AESECUREGETLOG_HINT%"><span class="glyphicon glyphicon-eye-open">&nbsp;</span>%AESECUREGETLOG%</a></li>
+               <li class="divider"></li>
+               <li data-aesecureid="990"><a href="#" id="options" title="%AESECURESEOPTIONS_HINT%"><span class="glyphicon glyphicon-bookmark">&nbsp;</span>%AESECURESEOPTIONS%</a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="%AESECURELINKS%"><span class="glyphicon glyphicon-link">&nbsp;</span><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+               <li><a href="%AESECUREWEBSITE%documentation/fonctionnalites/" target="_blank" title="%AESECUREDOCUMENTATION_HINT%"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>%AESECUREDOCUMENTATION%</a></li>
+               <li><a href="%AESECUREWEBSITE%forum/" target="_blank" title="%AESECUREFORUM_HINT%"><span class="glyphicon glyphicon-pencil">&nbsp;</span>%AESECUREFORUM%</a></li>
+            </ul>
+         </li>
+      </ul>
+      <p class="hidden-xs hidden-sm navbar-text pull-right"><span id="divMainMessage">%AESECUREMAINMESSAGE%</span></p>
+   </div>
+ </div>

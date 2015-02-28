@@ -1,0 +1,119 @@
+<div class="divider"></div>
+<div class="heading">
+   <h2>4. Content Management System (CMS)</h2>&nbsp;<h5 data-toggle="popover" title="CMS" data-content="%AESECUREPOPUPTITLECHAPTER4%"><span class="glyphicon glyphicon-comment aeComment"/></h5>
+</div>
+<div data-aesecureid="41" id="joomla_version" name="joomla_version" class="wrapper %41_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%41_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab41Intro" href="#tab41Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab41Help" href="#tab41Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab41Result" href="#tab41Result" data-toggle="tab">%AESECURETITLEVERIFY%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab41Intro"><p>%41_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab41Help"></div>
+				<div class="tab-pane fade divProtect" id="tab41Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="42" id="joomla_blockcomusers" name="joomla_blockcomusers" class="wrapper %42_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon blue">EXTREME</div></div>
+	<div class="row">
+		<h3>%42_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab42Intro" href="#tab42Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab42Help" href="#tab42Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab42Test" title="%AESECURETITLETEST_TIP%" href="#tab42Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab42Result" href="#tab42Result" data-toggle="tab">%AESECURETITLEPROTECT%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab42Intro"><p>%42_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab42Help"></div>
+				<div class="tab-pane fade divTest" id="tab42Test"></div>
+				<div class="tab-pane fade divProtect" id="tab42Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="43" id="joomla_protectadmin" name="joomla_protectadmin" class="wrapper %43_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div  class="row">
+		<h3>%43_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab43Intro" href="#tab43Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab43Help" href="#tab43Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab43Test" title="%AESECURETITLETEST_TIP%" href="#tab43Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab43Result" href="#tab43Result" data-toggle="tab">%AESECURETITLEPROTECT%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab43Intro"><p>%43_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab43Help"></div>
+				<div class="tab-pane fade divTest" id="tab43Test"></div>
+				<div class="tab-pane fade divProtect" id="tab43Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="44" id="joomla_blockcomponents" name="joomla_blockcomponents" class="wrapper %44_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%44_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab44Intro" href="#tab44Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab44Help" href="#tab44Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab44Test" title="%AESECURETITLETEST_TIP%" href="#tab44Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab44Result" href="#tab44Result" data-toggle="tab">%AESECURETITLEPROTECT%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab44Intro"><p>%44_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab44Help"></div>
+				<div class="tab-pane fade divTest" id="tab44Test"></div>
+				<div class="tab-pane fade divProtect" id="tab44Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="45" id="joomla_searchadmin" name="joomla_searchadmin" class="wrapper %45_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%45_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab45Intro" href="#tab45Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab45Help" href="#tab45Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab45Result" href="#tab45Result" data-toggle="tab">%AESECURETITLEVERIFY%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab45Intro"><p>%45_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab45Help"></div>
+				<div class="tab-pane fade divProtect" id="tab45Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="49" id="joomla_showredirect" name="joomla_showredirect" class="wrapper %49_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%49_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab49Intro" href="#tab49Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab49Help" href="#tab49Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab49Result" href="#tab49Result" data-toggle="tab">%AESECURETITLEVERIFY%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab49Intro"><p>%49_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab49Help"></div>
+				<div class="tab-pane fade divProtect" id="tab49Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<hr/>

@@ -1,0 +1,8 @@
+#aeSecure 4.2
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ # Don't allow access to the registration native url.  This url is used by robots to create ghosts users
+ # Block f.i. http://yoursite/index.php?option=com_users&view=registration
+ RewriteCond %{QUERY_STRING} option=com_users&view=registration [NC]
+ RewriteRule .* /%AESECURE_SITEROOT%aesecure/accessdenied.php?s=42 [L]
+</IfModule>

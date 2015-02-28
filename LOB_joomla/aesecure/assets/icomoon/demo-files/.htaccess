@@ -1,0 +1,10 @@
+
+#aeSecure
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteOptions Inherit
+RewriteCond %{REQUEST_URI} ^((.*/)assets/.*)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !index\.html [NC]
+RewriteCond %{REQUEST_FILENAME} !demo\.(css|js) [NC]
+RewriteRule .* %2accessdenied.php?s=403&file=%1 [L]
+</IfModule>

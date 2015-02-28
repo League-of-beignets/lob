@@ -1,0 +1,25 @@
+<br/>
+<div id="aeSecureTitle" class="row jumbotron hidden-xs hidden-sm">
+   <h1 class="appTitle" data-in-effect="rollIn">%AESECURETITLE%</h1>
+	<p>%AESECURESETUPCONFIGTITLE%</p>
+</div>
+<div id="aeSecureOptions"><span id="aeSecureOptionsHide" title="%AESECUREMODAL_CLOSE%">X</span><div id="aeSecureOptionsContent"></div><br/></div>
+<div id="aeSecurehtAccess"><span id="aeSecurehtAccessHide" title="%AESECUREMODAL_CLOSE%">X</span><div id="aeSecurehtAccessContent"></div><br/></div>
+<div id="aeSecureVersion" class="alert alert-success fade in">
+   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+   <div id="aeSecureVersionData"></div>
+</div>
+<div id="aeSecureWarning"></div>
+<div id="aeSecureNewerHTAccess" class="alert alert-warning fade in" style="display:none;">
+   <button id="aeSecureNewerHTAccesssClose" type="button" title="%AESECURETIPS_CLOSE_HINT%" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+   <div id="aeSecureNewerHTAccessMsg"></div>
+</div>
+<div id="aeSecureConfiguration" class="alert alert-danger fade in" style="display:none;">
+   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+   <div id="aeSecureConfigurationWarning"></div>
+</div>
+<div id="aeSecureTips" class="alert alert-info fade in" style="display:none;">
+   <button id="aeSecureTipsClose" type="button" title="%AESECURETIPS_CLOSE_HINT%" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+   <div id="aeSecureTipsMsg"></div>
+</div>
+<div id="aeSecureJVersion"></div>

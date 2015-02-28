@@ -1,0 +1,78 @@
+<div class="divider"></div>
+<div class="heading">
+   <h2>9. %AESECUREACTIONS_MISC%</h2>&nbsp;<h5 data-toggle="popover" title="CMS" data-content="%AESECUREPOPUPTITLECHAPTER9%"><span class="glyphicon glyphicon-comment aeComment"/></h5>
+</div>
+<div data-aesecureid="91" id="cleantmp" name="cleantmp" class="wrapper %91_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row" >
+		<h3>%91_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab91Intro" href="#tab91Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab91Help" href="#tab91Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab91Result" href="#tab91Result" data-toggle="tab">%AESECURETITLEPURGE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab91Intro"><p>%91_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab91Help"></div>
+				<div class="tab-pane fade divProtect" id="tab91Result"></div>
+			</div> 
+		</div>
+	</div>
+</div><hr/>
+<div data-aesecureid="92" id="cleancache" name="cleancache" class="wrapper %92_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row" >
+		<h3>%92_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab92Intro" href="#tab92Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab92Help" href="#tab92Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab92Result" href="#tab92Result" data-toggle="tab">%AESECURETITLEPURGE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab92Intro"><p>%92_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab92Help"></div>
+				<div class="tab-pane fade divProtect" id="tab92Result"></div>
+			</div> 
+		</div>
+	</div>
+</div><hr/>
+<div data-aesecureid="93" id="crontab" name="crontab" class="wrapper %93_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row" >
+		<h3>%93_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab93Intro" href="#tab93Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab93Help" href="#tab93Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab93Config" href="#tab93Config" data-toggle="tab">%AESECURETITLEACTUALCONFIG%</a></li>
+				<li><a id="showTab93Result" href="#tab93Result" data-toggle="tab">%AESECURETITLECONFIGURE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab93Intro"><p>%93_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab93Help"></div>
+				<div class="tab-pane fade divConfig" id="tab93Config"></div>
+				<div class="tab-pane fade divProtect" id="tab93Result"></div>
+			</div> 
+		</div>
+	</div>
+</div><hr/>
+<div data-aesecureid="94" id="password" name="password" class="wrapper %94_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row" >
+		<h3>%94_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab94Intro" href="#tab94Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab94Help" href="#tab94Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab94Result" href="#tab94Result" data-toggle="tab">%AESECURETITLEEXECUTE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab94Intro"><p>%94_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab94Help"></div>
+				<div class="tab-pane fade divProtect" id="tab94Result"></div>
+			</div> 
+		</div>
+	</div>
+</div><hr/>

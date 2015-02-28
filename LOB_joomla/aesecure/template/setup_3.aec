@@ -1,0 +1,41 @@
+<div class="divider"></div>
+<div class="heading">
+   <h2>3. %AESECUREFILESANDFOLDERS%</h2>&nbsp;<h5 data-toggle="popover" title="CMS" data-content="%AESECUREPOPUPTITLECHAPTER3%"><span class="glyphicon glyphicon-comment aeComment"/></h5>
+</div>
+<div data-aesecureid="31" id="chmodfiles" name="chmodfiles" class="wrapper %31_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%31_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab31Intro" href="#tab31Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab31Help" href="#tab31Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab31Result" href="#tab31Result" data-toggle="tab">%AESECURETITLEPROTECT%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab31Intro"><p>%31_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab31Help"></div>
+				<div class="tab-pane fade divProtect" id="tab31Result"></div>
+			</div> 
+		</div> 
+	</div> 
+</div>
+<div data-aesecureid="32" id="findevilnumber" name="findevilnumber" class="wrapper %32_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row">
+		<h3>%32_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab32Intro" href="#tab32Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab32Help" href="#tab32Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab32Result" href="#tab32Result" data-toggle="tab">%AESECURETITLEVERIFY%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab32Intro">%32_INTRO%</div>
+				<div class="tab-pane fade divMoreDetail" id="tab32Help"></div>
+				<div class="tab-pane fade divProtect" id="tab32Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<hr/>

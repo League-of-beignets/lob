@@ -1,0 +1,16 @@
+<div class="navbar navbar-inverse navbar-fixed-top navbar-custom" id="topnav" role="navigation">%AESECURE_TOPNAV%</div>
+<div id="sidebar" class="col-lg-3 col-md-3 hidden-print visible-md visible-lg" role="navigation">
+	<br/><br/><br/><div class="well bs-sidebar affix">%AESECURE_SIDEBAR%</div>
+</div>
+
+<div class="xs-lg-12 sm-lg-12 col-lg-9 col-md-9">
+	<div class="page-header">%AESECURE_HEADER%</div>
+	<div id="aeSecureBase"><div>%AESECURE_SECTION_1%</div></div>
+	<div id="aeSecureOther"><div>%AESECURE_SECTION_2%</div></div>
+	<div id="aeSecurePermissions"><div>%AESECURE_SECTION_3%</div></div>
+	<div id="aeSecureCMS"><div>%AESECURE_SECTION_4%</div></div>
+	<div id="aeSecureDatabase"><div>%AESECURE_SECTION_5%</div></div>
+	<div id="aeSecureSEO"><div>%AESECURE_SECTION_7%</div></div>
+	<div id="aeSecureOptimize"><div>%AESECURE_SECTION_8%</div></div>
+	<div id="aeSecureMisc"><div>%AESECURE_SECTION_9%</div></div>
+ </div>

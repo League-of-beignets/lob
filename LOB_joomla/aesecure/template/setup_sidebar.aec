@@ -1,0 +1,14 @@
+<ul class="nav nav-pills nav-stacked">
+   <li class="active"><a href="#aeSecureBase">1. %AESECUREACTIONS_BASE%</a></li>
+   <li class=""><a href="#aeSecureOther">2. %AESECUREACTIONS_OTHER%</a></li>
+   <li class=""><a href="#aeSecurePermissions">3. %AESECUREFILESANDFOLDERS%</a></li>
+   <li class=""><a href="#aeSecureCMS">4. CMS</a></li>
+   <li class=""><a href="#aeSecureDatabase">5. %AESECUREDATABASE%</a></li>
+   <li class=""><a href="#aeSecureSEO">7. %AESECURESEO%</a></li>
+   <li class=""><a href="#aeSecureOptimize">8. %AESECUREACTIONS_OPTIMIZE%</a></li>
+   <li class=""><a href="#aeSecureMisc">9. %AESECUREACTIONS_MISC%</a></li>
+</ul>
+<div class="visible-lg text-center">
+   <img src="assets/aesecure.png" width="142" class="robot" title="%AESECUREPAGETITLE%" alt="aeSecure"/>
+<div>%AESECUREFREEHIDDENPAIDOPTIONS%</div>
+</div>

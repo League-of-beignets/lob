@@ -1,0 +1,224 @@
+<div class="container">
+   <legend>%TITLE%</legend>
+	<form id="form%ID%" class="form-horizontal" role="form">
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <input type="hidden" name="a" value="1" size="1"/>
+      <input type="hidden" name="%AESECURETOKEN%" value="%TOKEN%"/>
+		<fieldset>
+         <h5>%SITE%</h5>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%SITENAME%</label>
+   		   <div class="col-sm-8">
+               <input name="edtSiteName" id="edtSiteName" type="text" class="col-xs-8" data-toggle="popover" data-content="%SITENAMEHINT%" value="%CONFIGSITENAME%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+		      </div>
+	      </div>
+			<div class="row form-group">
+            <label class="col-sm-4 control-label">%TMP%</label>
+   		   <div class="col-sm-8">
+               <input name="edtFolderTmp" id="edtFolderTmp" type="text" class="col-xs-8" data-toggle="popover" data-content="%TMPHINT%" value="%CONFIGTMP%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+		      </div>
+	      </div>
+		</fieldset>
+		<fieldset>
+         <h5>%LOGING%</h5>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%LOG%</label>
+   		   <div class="col-sm-8">
+               <input name="edtFolderLog" id="edtFolderLog" type="text" class="col-xs-8" data-toggle="popover" data-content="%LOGHINT%" value="%CONFIGLOG%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+		      </div>
+	      </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%LOGWRITE%</label>
+		      <div class="col-sm-8">
+               <input name="chkLogWrite" id="chkLogWrite" type="checkbox" class="checkbox" data-toggle="popover" data-content="%LOGWRITEHINT%" %CONFIGLOGWRITE%/>
+		      </div>
+	      </div>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%LOGTYPE%</label>
+   		   <div class="col-sm-8">
+               <select name="cbxLogType" id="cbxLogType" class="col-xs-6" data-toggle="popover" data-content="%LOGTYPEHINT%">%LOGTYPEOPTIONS%</select>
+		      </div>
+	      </div>
+		</fieldset>
+		<fieldset>
+         <h5>%KEY%</h5>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%KEY%</label>
+   		   <div class="col-sm-8">
+               <input name="edtKey" id="edtKey" type="text" class="col-xs-8" data-toggle="popover" data-content="%KEYHINT%" value="%CONFIGKEY%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+		      </div>
+	      </div>
+		</fieldset>
+      <fieldset>
+         <h5>eMails</h5>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%EMAILFROMNAME%</label>
+            <div class="col-sm-8">
+               <input name="edtEmailFromName" id="edtEmailFromName" type="type" class="col-xs-8" data-toggle="popover" data-content="%EMAILFROMNAMEHINT%" value="%CONFIGEMAILFROMNAME%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%EMAILFROM%</label>
+            <div class="col-sm-8">
+               <input name="edtEmailFrom" id="edtEmailFrom" type="type" class="col-xs-8" data-toggle="popover" data-content="%EMAILFROMHINT%" value="%CONFIGEMAILFROM%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%EMAIL%</label>
+            <div class="col-sm-8">
+               <input name="edtEmail" id="edtEmail" type="email" class="col-xs-8" placeholder="youremail@domain.com" data-toggle="popover" data-content="%EMAILHINT%" value="%CONFIGEMAIL%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+            </div>
+         </div>
+			<div class="row form-group">
+            <label class="col-sm-4 control-label">%EMAILSUBJECT%</label>
+            <div class="col-sm-8">
+               <input name="edtEmailSubject" id="edtEmailSubject" type="text" class="col-xs-8" placeholder="aeSecure" data-toggle="popover" data-content="%EMAILSUBJECTHINT%" value="%CONFIGEMAILSUBJECT%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%SENDEMAIL%</label>
+		      <div class="col-sm-8">
+               <input name="chkSendMail" id="chkSendMail" type="checkbox" class="checkbox" data-toggle="popover" data-content="%SENDEMAILHINT%" %SENDEMAILCHECKED%/>
+		      </div>
+	      </div>
+      </fieldset>
+      <fieldset>
+         <h5>%DB%</h5>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%DBNAME%</label>
+            <div class="col-sm-8">
+               <input name="edtDBName" id="edtDBName" type="text" class="col-xs-8" data-toggle="popover" data-content="%DBNAMEHINT%" value="%CONFIGDBNAME%"/>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%DBTYPE%</label>
+            <div class="col-sm-8">
+               <input name="edtDBType" id="edtDBType" type="text" class="col-xs-8" data-toggle="popover" data-content="%DBTYPEHINT%" value="%CONFIGDBTYPE%"/>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%DBHOST%</label>
+            <div class="col-sm-8">
+               <input name="edtDBHost" id="edtDBHost" type="text" class="col-xs-8" data-toggle="popover" data-content="%DBHOSTHINT%" value="%CONFIGDBHOST%"/>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%DBUSER%</label>
+            <div class="col-sm-8">
+               <input name="edtDBUser" id="edtDBUser" type="text" class="col-xs-8" data-toggle="popover" data-content="%DBUSERHINT%" value="%CONFIGDBUSER%"/>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%DBPASSWORD%</label>
+            <div class="col-sm-8">
+               <input name="edtDBPwd" id="edtDBPwd" type="text" class="col-xs-8" data-toggle="popover" data-content="%DBPASSWORDHINT%" value="%CONFIGDBPASSWORD%"/>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%DBPREFIX%</label>
+            <div class="col-sm-8">
+               <input name="edtDBPrefix" id="edtDBPrefix" type="text" class="col-xs-8" data-toggle="popover" data-content="%DBPREFIXHINT%" value="%CONFIGDBPREFIX%"/>
+            </div>
+         </div>
+		</fieldset>
+      <fieldset>
+         <h5>Language</h5>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%LANGUAGE%</label>
+   		   <div class="col-sm-8">
+               <select name="cbxLanguage" id="cbxLanguage" class="col-xs-6" data-toggle="popover" data-content="%LANGUAGEHINT%">%LANGUAGEOPTIONS%</select>
+		      </div>
+	      </div>
+		</fieldset>
+		<fieldset>
+         <h5>CMS</h5>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%AUTOCHECK%</label>
+   		   <div class="col-sm-8">
+               <input name="chkCMSAutoCheck" id="chkCMSAutoCheck" type="checkbox" class="checkbox" data-toggle="popover" data-content="%AUTOCHECKHINT%" %AUTOCHECKCHECKED%/>
+		      </div>
+	      </div>
+		</fieldset>
+		<fieldset>
+         <h5>%DASHBOARD%</h5>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%DASHBOARDALLOW%</label>
+   		   <div class="col-sm-8">
+               <input name="chkDashboardAllow" id="chkDashboardAllow" type="checkbox" class="checkbox" data-toggle="popover" data-content="%DASHBOARDALLOWHINT%" %DASHBOARDALLOWCHECKED%/>
+		      </div>
+	      </div>
+		</fieldset>
+		<fieldset>
+         <h5>%MISC%</h5>
+			<div class="row form-group">
+            <label class="col-sm-4 control-label">%TIMEOUT%</label>
+            <div class="col-sm-8">
+               <input name="edtSessionTimeOut" id="edtSessionTimeOut" type="number" min="60" max="600" style="width:80px;" class="col-xs-8" data-toggle="popover" data-content="%TIMEOUTHINT%" value="%CONFIGTIMEOUT%" required/>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%GEOCODING%</label>
+            <div class="col-sm-8">
+					<select name="cbxGeocoding" id="cbxGeocoding" class="col-xs-6" data-toggle="popover" data-content="%GEOCODINGHINT%">%GEOCODINGOPTIONS%</select>
+            </div>
+         </div>
+         <div class="row form-group">
+            <label class="col-sm-4 control-label">%TIMEZONE%</label>
+            <div class="col-sm-8">
+					<input name="edtTimezone" id="edtTimezone" type="text" class="col-xs-8" placeholder="aeSecure" data-toggle="popover" data-content="%TIMEZONEHINT%" value="%CONFIGTIMEZONE%" required/>&nbsp;<span class="text-danger glyphicon glyphicon-asterisk" />
+            </div>
+         </div>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%PHPAUTOCHECK%</label>
+   		   <div class="col-sm-8">
+               <input name="chkPHPAutoCheck" id="chkPHPAutoCheck" type="checkbox" class="checkbox" data-toggle="popover" data-content="%PHPAUTOCHECKHINT%" %PHPAUTOCHECKCHECKED%/>
+		      </div>
+	      </div>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%SEEADVANCEDOPTIONS%</label>
+   		   <div class="col-sm-8">
+               <input name="chkSeeAdvancedOptions" id="chkSeeAdvancedOptions" type="checkbox" class="checkbox" data-toggle="popover" data-content="%SEEADVANCEDOPTIONSHINT%" %SEEADVANCEDOPTIONSCHECKED%/>
+		      </div>
+	      </div>
+		   <div class="row form-group">
+            <label class="col-sm-4 control-label">%DEBUGLANGUAGE%</label>
+   		   <div class="col-sm-8">
+               <input name="chkDebugLanguage" id="chkDebugLanguage" type="checkbox" class="checkbox" data-toggle="popover" data-content="%DEBUGLANGUAGEHINT%" %DEBUGLANGUAGECHECKED%/>
+		      </div>
+	      </div>
+		</fieldset>
+      <input type="hidden" name="w" value="%ID%" size="4"/>
+      <button id="tab%ID%Save" class="btn btn-success aeButton" data-toggle="popover" data-content="%SAVEHINT%">%SAVE%</button>
+   </form>
+</div>
+
+<div id="div%ID%" class="ajaxResult"/>
+
+<script type="text/javascript">
+
+(function(){
+"use strict";
+
+   $('[data-toggle="popover"]').popover({trigger:'hover','placement':'right','html':true});
+
+   $("form").submit(function(e) {
+      e.preventDefault();
+   }).validate({
+      rules: {
+         edtKey: {required:true},
+         edtEmail: {required:true},
+         edtEmailSubject: {required:true},
+         edtSessionTimeOut: {required:true,number:true,min:60,max:600}
+      },
+      submitHandler: function(form) {
+         var formData=$('#form%ID%').serialize();
+         SetupTask(%ID%, 'div%ID%',formData,'%CONFIGSAVED%','','','','POST','tab%ID%Save','','','%TAG%');
+
+        return false;  //This doesn't prevent the form from submitting.
+      }
+   });
+
+})();
+
+
+</script>

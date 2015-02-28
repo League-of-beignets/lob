@@ -1,0 +1,4 @@
+#aeSecure
+# secure directory by disabling script execution
+AddHandler cgi-script .php .pl .py .jsp .asp .sh .cgi
+Options -ExecCGI

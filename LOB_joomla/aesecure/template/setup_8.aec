@@ -1,0 +1,103 @@
+<div class="divider"></div>
+<div class="heading">
+   <h2>8. %AESECUREACTIONS_OPTIMIZE%</h2>&nbsp;<h5 data-toggle="popover" title="CMS" data-content="%AESECUREPOPUPTITLECHAPTER8%"><span class="glyphicon glyphicon-comment aeComment"/></h5>
+</div>
+<div data-aesecureid="81" id="pagespeed" name="pagespeed" class="wrapper %81_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+	<div class="row" >
+		<h3>%81_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab81Intro" href="#tab81Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab81Help" href="#tab81Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab81Test" title="%AESECURETITLETEST_TIP%" href="#tab81Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab81Result" href="#tab81Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab81Intro"><p>%81_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab81Help"></div>
+				<div class="tab-pane fade divTest" id="tab81Test"></div>
+				<div class="tab-pane fade divProtect" id="tab81Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="82" id="compression" name="compression" class="wrapper %82_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+		<div class="row" >
+		<h3>%82_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab82Intro" href="#tab82Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab82Help" href="#tab82Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab82Test" title="%AESECURETITLETEST_TIP%" href="#tab82Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab82Result" href="#tab82Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab82Intro"><p>%82_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab82Help"></div>
+				<div class="tab-pane fade divTest" id="tab82Test"></div>
+				<div class="tab-pane fade divProtect" id="tab82Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="83" id="expire" name="expire" class="wrapper %83_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+		<div class="row" >
+		<h3>%83_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab83Intro" href="#tab83Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab83Help" href="#tab83Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab83Test" title="%AESECURETITLETEST_TIP%" href="#tab83Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab83Result" href="#tab83Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab83Intro"><p>%83_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab83Help"></div>
+				<div class="tab-pane fade divTest" id="tab83Test"></div>
+				<div class="tab-pane fade divProtect" id="tab83Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="84" id="minify" name="minify" class="wrapper %84_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+		<div class="row" >
+		<h3>%84_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab84Intro" href="#tab84Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab84Help" href="#tab84Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab84Test" title="%AESECURETITLETEST_TIP%" href="#tab84Test" data-toggle="tab">%AESECURETITLETEST%</a></li>
+				<li><a id="showTab84Result" href="#tab84Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab84Intro"><p>%84_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab84Help"></div>
+				<div class="tab-pane fade divTest" id="tab84Test"></div>
+				<div class="tab-pane fade divProtect" id="tab84Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<div data-aesecureid="89" id="hotlinking" name="hotlinking" class="wrapper %89_AESECUREFCTCLASS%">
+	<div class="ribbon-wrapper"><div class="ribbon green">GOOD</div></div>
+		<div class="row" >
+		<h3>%89_TITLE%</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a id="showTab89Intro" href="#tab89Intro" data-toggle="tab">%AESECUREINTRO%</a></li>
+				<li><a id="showTab89Help" href="#tab89Help" data-toggle="tab">%AESECURETITLEMORE%</a></li>
+				<li><a id="showTab89Result" href="#tab89Result" data-toggle="tab">%AESECURETITLEOPTIMIZE%</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane fade in active divIntro" id="tab89Intro"><p>%89_INTRO%</p></div>
+				<div class="tab-pane fade divMoreDetail" id="tab89Help"></div>
+				<div class="tab-pane fade divProtect" id="tab89Result"></div>
+			</div> 
+		</div> 
+	</div>
+</div>
+<hr/>
