@@ -16,7 +16,7 @@ class JConfig {
 	public $user = 'BDDDEVUSER';
 	public $password = 'CKILABDD??';
 	public $db = 'BDDDEV';
-	public $dbprefix = 'LOB_';
+	public $dbprefix = 'lob_';
 	public $live_site = '';
 	public $secret = 'KLq5v9OjvCGphOgU';
 	public $gzip = '0';
