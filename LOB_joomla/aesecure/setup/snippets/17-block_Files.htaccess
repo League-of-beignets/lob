@@ -1,3 +1,0 @@
-#aeSecure 1.7
-# Block direct access to these files : don't allow an url like f.i. http://yoursite/configuration.php
-%LINES%

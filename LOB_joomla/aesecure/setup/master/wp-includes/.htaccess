@@ -1,8 +1,0 @@
-# aeSecure
-RewriteEngine on
-RewriteOptions Inherit
-
-# Allow only requests to these files.  This is NOT condition : specify extensions that are allowed. 
-# The other one will be refused.   Don't specify php except if you want to allow php script in this folder.
-RewriteCond %{REQUEST_URI} !.*\.(css|html?|jpe?g|js|gif|pdf|png|te?xt|xml|zip)
-RewriteRule . /%AESECURE_SITEROOT%aesecure/accessdenied.php?s=403&fld=wp-includes

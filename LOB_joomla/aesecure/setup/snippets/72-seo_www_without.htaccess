@@ -1,8 +1,0 @@
-#aeSecure 7.2
-# Redirect www to non-www, avoid duplicate content.  Remove prefix
-<IfModule mod_rewrite.c>
- RewriteEngine On
- RewriteCond %{REQUEST_URI} !/aesecure/.*$
- RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
- RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
-</IfModule>

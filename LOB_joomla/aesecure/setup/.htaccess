@@ -1,7 +1,0 @@
-#aeSecure
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteOptions Inherit
-RewriteCond %{REQUEST_URI} ^((.*/)setup/.*)$ [NC]
-RewriteRule .* %2accessdenied.php?s=403&file=%1 [L]
-</IfModule>

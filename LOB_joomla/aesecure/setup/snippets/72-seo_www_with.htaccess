@@ -1,8 +1,0 @@
-#aeSecure 7.2
-# Redirect non-www to www pages, avoid duplicate content.  Add prefix
-<IfModule mod_rewrite.c>
- RewriteEngine On
- RewriteCond %{REQUEST_URI} !/aesecure/.*$
- RewriteCond %{HTTP_HOST} !^www\.
- RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
-</IfModule>

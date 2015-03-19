@@ -1,5 +1,0 @@
-#aeSecure 1.5
-# Blacklist IP addresses: allow all except those mentionned below
-order allow,deny
-allow from all
-%LINES%
